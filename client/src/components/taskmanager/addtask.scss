@@ -1,0 +1,29 @@
+.addtask {
+  width: 100%;
+
+  form {
+    width: 70%;
+    margin: 3rem;
+    display: flex;
+  }
+
+  input {
+    padding: 5px;
+    width: 30rem;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 768px) {
+    form {
+      flex-direction: column;
+    }
+
+    input {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+}

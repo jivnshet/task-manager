@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #003780;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+
+  &__logo {
+    h5 {
+      color: white;
+      font-weight: 300;
+      cursor: pointer;
+    }
+  }
+
+  .button {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 500px) {
+    .button {
+      padding: 5px;
+      min-width: 50px;
+    }
+  }
+}
